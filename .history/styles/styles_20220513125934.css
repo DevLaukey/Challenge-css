@@ -62,7 +62,6 @@ body {
 }
 
 .report {
-  color:rgb(185, 177, 170);
   margin-top: 10%;
 }
 .name {
@@ -74,12 +73,11 @@ body {
   color: hsl(236, 100%, 87%);
 }
 .desaturated-blue {
+  color: hsl(235, 45%, 61%);
 }
 .footnotes {
   color: hsl(235, 45%, 61%);
-  font-family: "Rubik";
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 15px;
   border-radius: 5%;
   width: 90%;
   padding-left: 10px;
@@ -97,71 +95,27 @@ body {
 .card-work {
   height: 100%;
   border-radius: 5%;
-  position: relative;
+
   background-color: hsl(15, 100%, 70%);
 }
-.card-play {
-   height: 100%;
-  border-radius: 5%;
-  position: relative;
-  background-color:  hsl(195, 74%, 62%);
-}
-.card-study{
-   height: 100%;
-  border-radius: 5%;
-  position: relative;
-  background-color: hsl(348, 100%, 68%);
-}
-.card-exercise {
-   height: 100%;
-  border-radius: 5%;
-  position: relative;
-  background-color: hsl(145, 58%, 55%)
-}
-.card-social {
-   height: 100%;
-  border-radius: 5%;
-  position: relative;
-  background-color: hsl(264, 64%, 52%);
-}
-.card-self-care {
-   height: 100%;
-  border-radius: 5%;
-  position: relative;
-  background-color: hsl(43, 84%, 65%);
-}
+
 .icons {
   float: right;
   padding-right: 10px;
+  height: 20px;
+  /* flex-direction:column-reverse; */
 }
-.sub-card {
+.subcard-work {
+  background-color: hsl(235, 46%, 20%);
   justify-content: space-between;
   width: 100%;
-  height: 80%;
-  position: absolute;
-  bottom: 0;
   padding: 15px;
+
   border-radius: 5%;
-  background-color: hsl(235, 46%, 20%);
 }
 .options {
+  top: 50;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 15px;
-}
-.text-time {
-  justify-content: space-between;
-  width: 100%;
-  padding: 15px;
-}
-/* play */
-.text-time>h1{
-  font-size: 3em;
-  font-weight: 300;
-}
-
-.text-time>p{
-  color: hsl(235, 45%, 61%);
-
 }

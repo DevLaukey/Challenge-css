@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(226, 43%, 10%);
+  font-family: "Rubik", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 15vh;
+grid-template: 'first work play study'
+'first exercise social self-care';
+grid-gap: 20px;
+}
+.first {
+  grid-area: first;
+}
+.work {
+  grid-area: work;
+}
+.play {
+  grid-area: play;
+}
+.study {
+  grid-area: study;
+}
+.exercise {
+  grid-area:exercise;
+}
+.social {
+  grid-area: social;
+}
+.self-care {
+  grid-area: self-care;
+}

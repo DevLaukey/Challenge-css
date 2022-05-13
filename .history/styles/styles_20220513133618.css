@@ -62,7 +62,7 @@ body {
 }
 
 .report {
-  color:rgb(185, 177, 170);
+  color:rgb(153, 146, 141);
   margin-top: 10%;
 }
 .name {
@@ -74,12 +74,11 @@ body {
   color: hsl(236, 100%, 87%);
 }
 .desaturated-blue {
+  color: hsl(235, 45%, 61%);
 }
 .footnotes {
   color: hsl(235, 45%, 61%);
-  font-family: "Rubik";
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 15px;
   border-radius: 5%;
   width: 90%;
   padding-left: 10px;
@@ -156,12 +155,3 @@ body {
   padding: 15px;
 }
 /* play */
-.text-time>h1{
-  font-size: 3em;
-  font-weight: 300;
-}
-
-.text-time>p{
-  color: hsl(235, 45%, 61%);
-
-}

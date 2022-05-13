@@ -74,6 +74,7 @@ body {
   color: hsl(236, 100%, 87%);
 }
 .desaturated-blue {
+  color: hsl(235, 45%, 61%);
 }
 .footnotes {
   color: hsl(235, 45%, 61%);
@@ -159,9 +160,4 @@ body {
 .text-time>h1{
   font-size: 3em;
   font-weight: 300;
-}
-
-.text-time>p{
-  color: hsl(235, 45%, 61%);
-
 }
