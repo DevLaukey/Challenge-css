@@ -41,6 +41,7 @@ body {
   grid-area: self-care;
 }
 
+
 .img {
   height: 80px;
   border: solid white 3px;
@@ -91,6 +92,8 @@ body {
 .footnote {
   margin: 10px;
 }
+
+
 
 .card-work {
   height: 100%;
@@ -167,29 +170,38 @@ body {
   color: hsl(235, 45%, 61%);
 }
 
+
+
 @media only screen and (max-width: 1087px) {
   .grid-container {
     display: block;
     margin: 0;
+   
   }
   .grid-item {
     display: flex;
+   
+   
   }
   .card-first {
     width: 100%;
+   
   }
 
   .first-subcard {
     display: flex;
-
+   
     width: 100vw;
+   
   }
   .details {
     margin-left: 5vw;
+   
   }
   .footnotes {
     display: flex;
     justify-content: space-between;
+   
   }
   .card-work {
     width: 100vw;
@@ -199,7 +211,7 @@ body {
   }
   .card-exercise {
     width: 100vw;
-
+   
     padding-bottom: 20vh;
     margin-bottom: 20px;
   }
@@ -229,8 +241,9 @@ body {
   }
   .card-study {
     width: 100vw;
-
+   
     padding-bottom: 20vh;
     margin-bottom: 15px;
   }
+
 }
